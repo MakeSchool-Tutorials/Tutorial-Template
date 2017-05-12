@@ -11,7 +11,7 @@ module.exports.plugins = [
   [require('remark-lint-list-item-indent'), "space"],
   require('remark-lint-list-item-spacing'),
   [require('remark-lint-ordered-list-marker-style'), "."],
-  [require('remark-lint-ordered-list-marker-value'), "ordered"],
+  [require('remark-lint-ordered-list-marker-value'), "one"],
   [require('remark-lint-unordered-list-marker-style'), "-"],
 
   [require('remark-lint-heading-style'), "atx"],
