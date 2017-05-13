@@ -8,9 +8,9 @@ The above title becomes the tutorials first header so _an introduction to the tu
 In this tutorial we will discuss best practices for creating Make School tutorials. We'll cover:
 
 1. Tutorial structure
-2. Curriculum development tools
-3. Supported syntax
-4. Pacing the content
+1. Curriculum development tools
+1. Supported syntax
+1. Pacing the content
 
 # Tutorial structure
 
@@ -152,21 +152,21 @@ Images can also be included by full URL. This should be avoided in favor of imag
 ### Ordered lists
 
 1. This is an ordered list
-2. With multiple items
-3. Use the correct number or the linter will get angry!
-4. But don't be lazy...
+1. With multiple items
+1. Use one and let the processor count for you or the linter will get angry!
+1. But don't be lazy...
 
 ### Nested lists
 
 1. This is a nested list
     1. Use four spaces for each level
-    2. More nested items
+    1. More nested items
 
-2. Formatting can get a little weird so only nest once!
+1. Formatting can get a little weird so only nest once!
     - You can even combine ordered and unordered lists when nesting
     - Just remember to use four spaces for each level
 
-3. Such an amazing list
+1. Such an amazing list
 
 ## Code blocks
 
