@@ -90,7 +90,7 @@ Each `h1` header creates a "Mark Complete" button for content between it and nex
 
 - Italics can be done with _underscores_. Use italics for the name of applications and introducing new concepts.
 - Bold can be done with **asterisks**. Use bold for names of buttons.
-- Bold-italics can be done with **_asterisks arpund underscores_**.
+- Bold-italics can be done with **_asterisks around underscores_**.
 - Strikethrough can be done with ~~two tildes~~.
 - Inline code references (file names, class names, function names, etc) can be made with `back-ticks`, code blocks are discussed below.
 
