@@ -168,6 +168,15 @@ Images can also be included by full URL. This should be avoided in favor of imag
 
 1. Such an amazing list
 
+## Tables
+
+We will _soon_ supoprt markdown tables!
+
+| This is a header    | This is another header |
+|:--------------------|:-----------------------|
+| Sample contents     | Such table             |
+| So nicely formatted | Much wow               |
+
 ## Code blocks
 
 Always use fenced code blocks. Do not use indented code blocks in any new tutorials! Fenced code blocks allow you to specific the language of a code sample and are easier to edit.
