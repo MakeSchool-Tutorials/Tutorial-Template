@@ -269,11 +269,13 @@ This is not part of the box.
 
 #### This will not render correctly
 
+```
 > [action]
 > Try viewing this with ms-markdown-preview!
 
 > [info]
 > The renderer will treat these as the same box :(
+```
 
 #### This will render correctly
 
