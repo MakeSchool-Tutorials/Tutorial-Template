@@ -170,7 +170,7 @@ Images can also be included by full URL. This should be avoided in favor of imag
 
 ## Tables
 
-We will _soon_ supoprt markdown tables!
+We also support markdown tables!
 
 | This is a header    | This is another header |
 |:--------------------|:-----------------------|
