@@ -8,15 +8,16 @@ If you have a specific question, feel free to use the table of contents to skip 
 |:--------------------|:-----------------------|
 | [README.md](README.md) | Learn how to structure your tutorial repository so that it renders correctly on MakeSchool.com |
 | [P00](P00-Getting-Started/content.md) | Learn syntax for writing tutorials that utilizes the special Make School markdown syntax  |
-| [P01](P01-First-Page/content.md) | Learn how to write the first page of a tutorial, which should have a similar format regardless of topic/course |
+| [P01](P01-First-Chapter/content.md) | Learn how to write the first chapter of a tutorial, which should have a similar format regardless of topic/course |
 | [P02](P02-Writing-Content/content.md) | Learn in general how to write out the rest of the tutorial, such as best practices and required sections (i.e. git commits, tests, etc.) |
 
-In this tutorial we will discuss best practices for creating Make School tutorials. We'll cover:
+In this tutorial template, we will discuss best practices for creating Make School tutorials. We'll cover:
 
-1. Tutorial structure
+1. Tutorial  repository structure
 1. Curriculum development tools
 1. Supported syntax
-1. Pacing the content
+1. How to write the first chapter of a tutorial
+1. How to write/pace the content throughout your tutorial
 
 # Tutorial repository structure
 

@@ -1,6 +1,6 @@
 ---
-title: "Writing the First Page"
-slug: first-page
+title: "Writing the First Chapter"
+slug: first-chapter
 ---
 
 Make School tutorials should have a consistent flow. This is a short guide to structuring the content of the tutorial.
