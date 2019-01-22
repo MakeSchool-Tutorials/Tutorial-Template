@@ -9,7 +9,7 @@ If you have a specific question, feel free to use the table of contents to skip 
 | [README.md](README.md) | Learn how to structure your tutorial repository so that it renders correctly on MakeSchool.com |
 | [P00](P00-Getting-Started/content.md) | Learn syntax for writing tutorials that utilizes the special Make School markdown syntax  |
 | [P01](P01-First-Page/content.md) | Learn how to write the first page of a tutorial, which should have a similar format regardless of topic/course |
-| [P02](P02-Writing-Content) | Learn in general how to write out the rest of the tutorial, such as best practices and required sections (i.e. git commits, tests, etc.) |
+| [P02](P02-Writing-Content/content.md) | Learn in general how to write out the rest of the tutorial, such as best practices and required sections (i.e. git commits, tests, etc.) |
 
 In this tutorial we will discuss best practices for creating Make School tutorials. We'll cover:
 
