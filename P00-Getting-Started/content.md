@@ -3,7 +3,7 @@ title: "Get started with writing tutorials!"
 slug: getting-started
 ---
 
-The above title becomes the tutorials first header so _an introduction to the tutorial page should be given here before any more headers are created._
+**The above title becomes the tutorials first header**, so an introduction to the tutorial page should be given here **before** any more headers are created.
 
 # Supported syntax
 
@@ -113,7 +113,7 @@ We also support markdown tables!
 
 ## Code blocks
 
-Always use fenced code blocks. Do not use indented code blocks in any new tutorials! Fenced code blocks allow you to specific the language of a code sample and are easier to edit.
+Always use fenced code blocks. Do not use indented code blocks in any new tutorials! Fenced code blocks allow you to specify the language of a code sample and are easier to edit.
 
 ```
 // Code within fenced code blocks should be left-aligned!
@@ -141,11 +141,13 @@ Linguist will sometimes fail to classify a code sample's language correctly. Whe
 <h1>Hello, Rails!</h1>
 ```
 
-## Action highlights
+This works for most languages we use at Make School (html, css, js, pug, etc.). Make sure to preview them in `ms-markdown-preview` to insure that they appear correctly.
+
+# Action highlights
 
 Read about the following boxes and use them when appropriate.
 
-### Quote box
+## Quote box
 
 Use quote boxes to include a quote.
 
@@ -153,14 +155,14 @@ Use quote boxes to include a quote.
 >
 > - Steve Jobs
 
-### Info box
+## Info box
 
 Use info boxes to draw a students attention to an important concept.
 
 > [info]
 > Important concepts should be recapped or summarized in info boxes.
 
-### Action box
+## Action box
 
 Use action boxes whenever the student should do something (add code, implement pseudocode, change IDE settings, download files, etc).
 
@@ -175,7 +177,7 @@ import ConvenienceKit
 
 This is no longer part of the box.
 
-### Solution box
+## Solution box
 
 Use solution boxes to keep a solution hidden until the student hovers over it. These should be placed after a student has been asked to try implementing something themselves.
 
@@ -188,7 +190,7 @@ import ConvenienceKit
 
 This is not part of the box.
 
-### Challenge box
+## Challenge box
 
 Use challenge boxes should be used for additional features the user might want to implement.
 
@@ -199,9 +201,9 @@ Use challenge boxes should be used for additional features the user might want t
 
 This is not part of the box.
 
-### Boxes followed by boxes
+## Boxes followed by boxes
 
-#### This will not render correctly
+### This will not render correctly
 
 ```
 > [action]
@@ -211,7 +213,7 @@ This is not part of the box.
 > The renderer will treat these as the same box :(
 ```
 
-#### This will render correctly
+### This will render correctly
 
 > [action]
 > Try viewing this with ms-markdown-preview!
@@ -223,7 +225,7 @@ This is not part of the box.
 >
 > The comment needs an empty line above and below it!
 
-### Code blocks within action highlight boxes
+## Code blocks within action highlight boxes
 
 > [info]
 > Fenced code blocks exit prematurely if they contain an empty line while within an action highlight box. **To fix this, you will need to include a `>` on each empty line within the fenced code block!**
