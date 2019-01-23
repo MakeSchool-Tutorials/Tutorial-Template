@@ -51,12 +51,20 @@ Good to remind students to set up a git repo for their code and to commit along 
 
 **For all 1.1 and 1.2 classes, please use the following text for this section**
 
+```
+# Using Git/GitHub
+
 As you go through this tutorial, you will also be making commits after completing milestones. This is a requirement, you must make a commit whenever the tutorial prompts you. This not only further enforces best practices for software engineering, but also will help you more easily figure out where a bug originated from if you break your progress up into discrete, trackable chunks.
 
 When prompted to commit, you'll see a sample commit message. Feel free to use your own message, so long as it clearly and concisely covers the work done.
 
 Lastly, the commit prompts in this tutorial should be the minimum amount of times you commit. If you want to do more commits, breaking your chunks into even smaller chunks, that is totally fine!
+```
 
 **For all 1.3 and higher classes, please use the following text for this section**
 
+```
+# Using Git/GitHub
+
 Much like we've done in earlier tutorials, make sure you're committing your code as you complete milestones. At a minimum, you should make a commit whenever the tutorial prompts you.
+```
