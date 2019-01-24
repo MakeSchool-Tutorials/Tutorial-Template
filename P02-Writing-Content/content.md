@@ -27,39 +27,31 @@ Make sure to utilize the action highlight boxes to help break up just staring at
 - **Info:** for adding non-essential information to a concept/idea/function/etc.
 _ **Quote:** for adding quotes
 
+# User Story Checklist
+
+Make sure to remind students of their user stories, and which ones they're going to be working on by **bolding** them, and then ~~cross off~~ the ones that have been completed.
+
+If possible, try to break down the user story as well into sub-tasks, which can just be sub-bullets in the list
+
+This should be one of the first sections of a tutorial. An example is below for a student who has finished the first 4 user stories and is about to start the 5th in this chapter:
+
+1. ~~Create a post~~
+1. ~~Show all posts~~
+1. ~~Show one post~~
+1. ~~Comment on posts~~
+1. **Create subreddits**
+    1. Add a `subreddit` attribute to our post resource
+    1. Navigate to view all the posts of the same subreddit
+1. Sign up and Login
+1. Associate posts and comments with their author
+1. Make comments on comments
+1. Vote a post up or down
+
 # Git Commits
 
 Students need to be prompted to commit their work and push to GitHub. This should happen at a _minimum_ of once per chapter, but feel free to include more if you feel it is needed.
 
 The following can be used for each section of a chapter. Remember to update the commit message and REPO-NAME to something relevant, and to remove the `\`:
-
-## For the first time they're committing code:
-
-```
-# Set Up Git/GitHub
-
->[action]
-> Make your first commit
->
-\```bash
-$ git init
-$ git add .
-$ git commit -m 'project init'
-\```
-
-Now go to GitHub and create a public repository called REPO-NAME, and now associate it as a remote for your local git project and then push to it.
-
->[action]
-> Push it!
->
-\```bash
-$ git remote add origin GITHUB-REPO-URL
-$ git push origin master -u
-\```
-
-```
-
-## For all other times they're committing code:
 
 ```
 # Now Commit

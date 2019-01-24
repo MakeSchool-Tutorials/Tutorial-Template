@@ -239,3 +239,23 @@ func doesNothing() {
 ```
 >
 > This will not render correctly without the `>` on empty lines within the fenced code block.
+
+## Ordered/Unordered lists within action highlight boxes
+
+You need to provide a new line with `>` before starting a list. See the examples below:
+
+>[action]
+> Below is a list:
+>
+> - item 1
+> - item 2
+> - item 3
+
+<!-- -->
+
+>[info]
+> Below is a list:
+>
+> 1. item 1
+> 1. item 2
+> 1. item 3

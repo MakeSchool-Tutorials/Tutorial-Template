@@ -15,6 +15,15 @@ A screenshot or video of the final product should be shown here as well, so that
 
 **When copying this for your tutorial, remember that since this is the first section, you don't need a header**
 
+# Prerequisites
+
+This section should outline any prerequisites for understanding the material and link to resources for getting up to speed.
+
+Resources can include (but are not limited to):
+
+- Class slides/materials
+- Previous tutorials
+- Outside references (articles/tutorials not from Make School)
 
 # Learning Outcomes
 
@@ -22,8 +31,9 @@ List 5-8 learning outcomes for the tutorial. These should concepts or ideas that
 
 Be sure to use the language from the _Student Learning Outcomes_ (PDF Page 30) chapter of the [WASC Program Assessment Binder](https://drive.google.com/open?id=15GeE0LsGH73TNk2BVHd8VgbKnDb80N2j). Specific action verbs are given on PDF pages 35-36.
 
-The following format should be used for this section:
+The following format should be used for this section. Copy/paste this into your tutorial:
 
+```
 By the end of this tutorial, you should be able to...
 
 1. Learning Outcome 1
@@ -35,15 +45,31 @@ By the end of this tutorial, you should be able to...
 1. Learning Outcome 7
 1. Learning Outcome 8
 
-# Prerequisites
+>[action]
+> Take a moment to write down these learning outcomes and reflect on them. Make sure that as you progress through the tutorial that you're furthering your understanding, and that by the end, you have completed all of the outcomes.
+```
 
-This section should outline any prerequisites for understanding the material and link to resources for getting up to speed.
+# User Stories
 
-Resources can include (but are not limited to):
+**This may not be applicable to every tutorial, but it is if they're building an end product (Reddit clone, slack clone, Product Hunt reader, etc.)**
 
-- Class slides/materials
-- Previous tutorials
-- Outside references (articles/tutorials not from Make School)
+To get students in the habit of understanding user stories for building an app, provide them with a list upfront. _We want User Stories to be the requirements on building their product/app, whereas the Learning Outcomes represent the knowledge gained from building the product/app._
+
+The following format can be used for this section. Copy/paste this into your tutorial and adapt as needed:
+
+```
+# User Stories
+
+Here is what we need to accomplish in order to build PRODUCT_NAME.
+
+Remember that we need to think of these from the user's perspective, so we will be writing the requirements as User Stories:
+
+1. As a PERSONA, I want to ACTION so that REASON
+1. As a PERSONA, I want to ACTION so that REASON
+1. As a PERSONA, I want to ACTION so that REASON
+1. As a PERSONA, I want to ACTION so that REASON
+...
+```
 
 # Using Git/GitHub
 
@@ -67,4 +93,72 @@ Lastly, the commit prompts in this tutorial should be the minimum amount of time
 # Using Git/GitHub
 
 Much like we've done in earlier tutorials, make sure you're committing your code as you complete milestones. At a minimum, you should make a commit whenever the tutorial prompts you.
+```
+
+# Git Setup
+
+The following can be used for the first chapter to make sure students set up Git/GitHub for their tutorial. Remember to update the commit message and REPO-NAME to something relevant, and to remove the `\`:
+
+## If there is NO starter code
+
+```
+# Set Up Git/GitHub
+
+Set up your repo!
+
+>[action]
+> Make your first commit
+>
+\```bash
+$ git init
+$ git add .
+$ git commit -m 'project init'
+\```
+
+Now go to GitHub and create a public repository called REPO-NAME, and now associate it as a remote for your local git project and then push to it.
+
+>[action]
+> Push it!
+>
+\```bash
+$ git remote add origin GITHUB-REPO-URL
+$ git push origin master -u
+\```
+
+```
+
+## If there IS starter code
+
+Remember to update the commit message, update the ALL_CAPS_WORDS to something relevant, and to remove the `\`:
+
+```
+# Set up Git/GitHub
+
+Set up your repo!
+
+> [action]
+> Go to the [starter repo](LINK_HERE_TO_REPO) and fork the repo into your own personal account
+
+Doing this will allow you to commit/push/pull the changes you make to your own account. **It is very important you do the above step first before doing the below.**
+
+> [action]
+> Clone the starter project from your fork
+>
+\```bash
+$ git clone [URL to your starter repo] NAME_OF_LOCAL_REPO
+$ cd NAME_OF_LOCAL_REPO
+$ INSTALL_DEPENDENCIES
+$ git add .
+$ git commit -m 'project init'
+\```
+
+>[action]
+> Push it!
+>
+\```bash
+$ git remote add origin FORKED-GITHUB-REPO-URL
+$ git push origin master -u
+\```
+\```bash
+
 ```
