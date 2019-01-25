@@ -259,3 +259,25 @@ You need to provide a new line with `>` before starting a list. See the examples
 > 1. item 1
 > 1. item 2
 > 1. item 3
+
+## Syntax Formatting Within Code Blocks
+
+We have two new tags that can be added into code blocks to give you some control over formatting.
+
+`[none]` will keep things from being passed through syntax highlighting. This can be useful when showing terminal output.
+`[bold]` will bolden the text after syntax highlighting is applied. This can be useful for bringing attention to newly added lines of code.
+Make sure to always include the closing tag.
+Tags can span multiple lines, but should not be added midline or interrupt code statements.
+Tags cannot be combined currently. DM Dion on Slack if you need this functionality and we can explore how this can be added.
+
+Example:
+
+```
+// Code within fenced code blocks should be left-aligned!
+print("Hello, Make School!")
+[none]print("This has no syntax highlighting")[/none]
+
+[bold]if bold {
+  print("It displays bold like this")
+}[/bold]
+```
