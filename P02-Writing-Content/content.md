@@ -62,7 +62,7 @@ The following can be used for each section of a chapter. Remember to update the 
 $ git add .
 $ git commit -m 'Commit Message'
 $ git push
-\```bash
+\```
 ```
 
 # Learning Outcome Reminders

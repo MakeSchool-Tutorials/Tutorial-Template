@@ -159,6 +159,5 @@ $ git commit -m 'project init'
 $ git remote add origin FORKED-GITHUB-REPO-URL
 $ git push origin master -u
 \```
-\```bash
 
 ```
