@@ -84,9 +84,9 @@ Try to include code tests as either 1-2 chapters in the tutorial, or as sub-sect
 
 Check out the [Rotten Potatoes Testing Chapter](https://www.makeschool.com/academy/track/rotten-potatoes---movie-reviews-with-express-js/tutorial/adding-tests) for an example of this in action.
 
-# Relate to classes
+# Relate to Course
 
-This should be a small section on the last chapter, with an action box asking the students to relate this to class material. Be sure to mention class learning outcomes, or lesson topics so they have a reference to the course.
+This should be an action box towards the end of the last chapter asking the students to relate this to class material. Be sure to mention class learning outcomes, or lesson topics so they have a reference to the course.
 
 # Feedback Forms
 
