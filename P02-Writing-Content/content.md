@@ -27,7 +27,7 @@ Make sure to utilize the action highlight boxes to help break up just staring at
 - **Info:** for adding non-essential information to a concept/idea/function/etc.
 _ **Quote:** for adding quotes
 
-# User Story Checklist
+# User Story/Technical Planning Checklist
 
 Make sure to remind students of their user stories, and which ones they're going to be working on by **bolding** them, and then ~~cross off~~ the ones that have been completed.
 
@@ -46,6 +46,11 @@ This should be one of the first sections of a tutorial. An example is below for 
 1. Associate posts and comments with their author
 1. Make comments on comments
 1. Vote a post up or down
+
+
+# Product So Far Sections
+
+Make a specific section in each applicable chapter for students to see what the progress so far looks like. This is where screenshots of the app in progress should be for students to easily jump to if needed.
 
 # Git Commits
 
@@ -79,13 +84,19 @@ Try to include code tests as either 1-2 chapters in the tutorial, or as sub-sect
 
 Check out the [Rotten Potatoes Testing Chapter](https://www.makeschool.com/academy/track/rotten-potatoes---movie-reviews-with-express-js/tutorial/adding-tests) for an example of this in action.
 
+# Relate to classes
+
+This should be a small section on the last chapter, with an action box asking the students to relate this to class material. Be sure to mention class learning outcomes, or lesson topics so they have a reference to the course.
+
 # Feedback Forms
 
 Create a feedback form from this template: [make.sc/tutorial-feedback-template](make.sc/tutorial-feedback-template). Please copy it into the correct sub-folder(s) under the [Curriculum Feedback drive](https://drive.google.com/drive/u/1/folders/1a2RvX9RDU9TOPdrGYPfQU1e1j1y2ZR6Z).
 Fill out the items on the form, and then create this subsection in the last chapter of your tutorial:
 
 ```
-# Feedback and Review
+# Feedback and Review - 2 minutes
+
+**We promise this won't take longer than 2 minutes!**
 
 Please take a moment to rate your understanding of learning outcomes from this tutorial, and how we can improve it via our [tutorial feedback form](LINK_TO_YOUR_FORM)
 

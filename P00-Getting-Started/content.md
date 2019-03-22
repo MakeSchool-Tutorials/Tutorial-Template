@@ -76,6 +76,34 @@ The following syntax will embed a PDF for viewing in-line. PDFs can be reference
 
 Images can also be included by full URL. This should be avoided in favor of images being stored in the tutorial repository.
 
+## Asset Naming
+
+Any asset that lives locally in an `asset` folder should adhere to the following naming convention:
+
+`placement_number-section-name_image-title`
+
+break down of each part of the string:
+
+- `placement_number`: the order in which the image appears on the chapter. For example, if this is the first image in the chapter, it should be `01`. If it's the fifth image in the chapter, it should be `05`
+- `section-name`: name of the section. Can be abbreviated if the section name is long. For example, if the section name is "JS fundamentals", write `js-fundamentals`. If the section name is "Wow this is a really long title", then just write `wow-this-is`.
+  - If abbreviating, use your best judgement. Try to keep it to no more than 3 words
+- `image-title`: Brief descriptive title for the image. For example, if the image is of a comment box component, write `comment-box`
+
+### Combined Example
+
+Let's say you have an image of an illustration of DFS, and it's in the section named "Learning DFS" of chapter 4, and it's the second image in the tutorial. The image would be named the following:
+
+`02_learning-dfs_dfs-illustrated.png`
+
+### What Assets should follow this?
+
+Anything living in the `asset` folder of each chapter. This includes:
+
+- images
+- videos (MP4/MOV)
+- PDFs
+- Anything else that lives in the `asset` folder of a chapter
+
 ## Lists
 
 ### Unordered lists
@@ -190,9 +218,17 @@ import ConvenienceKit
 
 This is not part of the box.
 
-## Challenge box
+## Stretch Challenge box
 
-Use challenge boxes should be used for additional features the user might want to implement.
+Use challenge boxes should be used for additional features the user might want to implement. Make sure to give it a header of **Stretch Challenge**, as plain "challenges" have a different meaning at Make School.
+
+- "Challenge" means its still required for students to complete.
+- "Stretch Challenge" means its optional for students to complete (for those who want an extra challenge)
+
+An example below, but you don't need to use the three tick symbols:
+
+```
+# Stretch Challenge
 
 > [challenge]
 > Would you kindly add a high score popup?
@@ -200,6 +236,7 @@ Use challenge boxes should be used for additional features the user might want t
 > The game could use some social integration as well!
 
 This is not part of the box.
+```
 
 ## Boxes followed by boxes
 

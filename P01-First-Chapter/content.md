@@ -15,6 +15,10 @@ A screenshot or video of the final product should be shown here as well, so that
 
 **When copying this for your tutorial, remember that since this is the first section, you don't need a header**
 
+# Why Is This Important
+
+Use this section to concisely covey to students why this topic is important for them to learn. This should be tied to industry examples, or fundamentals of the course. Try to keep this brief, and possibly include an action block asking them to think of examples they see of this in industry.
+
 # Prerequisites
 
 This section should outline any prerequisites for understanding the material and link to resources for getting up to speed.
@@ -49,7 +53,7 @@ By the end of this tutorial, you should be able to...
 > Take a moment to write down these learning outcomes and reflect on them. Make sure that as you progress through the tutorial that you're furthering your understanding, and that by the end, you have completed all of the outcomes.
 ```
 
-# User Stories
+# User Stories/Technical Planning
 
 **This may not be applicable to every tutorial, but it is if they're building an end product (Reddit clone, slack clone, Product Hunt reader, etc.)**
 
@@ -68,6 +72,18 @@ Remember that we need to think of these from the user's perspective, so we will 
 1. As a PERSONA, I want to ACTION so that REASON
 1. As a PERSONA, I want to ACTION so that REASON
 1. As a PERSONA, I want to ACTION so that REASON
+...
+```
+
+```
+# Technical Planning
+
+Here is what we need to accomplish in order to build PRODUCT_NAME:
+
+1. Build this component
+1. Hook up the backend
+1. Write Tests
+1. Style this view
 ...
 ```
 
