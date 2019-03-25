@@ -48,7 +48,7 @@ This should be one of the first sections of a tutorial. An example is below for 
 1. Vote a post up or down
 
 
-# Product So Far Sections
+# Product So Far
 
 Make a specific section in each applicable chapter for students to see what the progress so far looks like. This is where screenshots of the app in progress should be for students to easily jump to if needed.
 
