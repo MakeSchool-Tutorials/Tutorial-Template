@@ -131,7 +131,7 @@ $ git add .
 $ git commit -m 'project init'
 \```
 
-Now go to GitHub and create a public repository called REPO-NAME, and now associate it as a remote for your local git project and then push to it.
+Now Go to GitHub and create a public repository called REPO-NAME, and now associate it as a remote for your local git project and then push to it.
 
 >[action]
 > Push it!
@@ -153,27 +153,24 @@ Remember to update the commit message, update the ALL_CAPS_WORDS to something re
 Set up your repo!
 
 > [action]
-> Go to the [starter repo](LINK_HERE_TO_REPO) and fork the repo into your own personal account
+> Go to the [starter repo](LINK_HERE_TO_REPO) and clone the repo locally
+>
+\```bash
+$ git clone [URL to your starter repo]
+\```
 
-Doing this will allow you to commit/push/pull the changes you make to your own account. **It is very important you do the above step first before doing the below.**
+Now we need to change the remote so that you can commit/push/pull the changes you make to your own repo. **It is very important you do the below steps in order to get everything working properly.**
 
 > [action]
-> Clone the starter project from your fork
+> Go to GitHub and create an _empty_, public repository called REPO-NAME, and now associate it as a remote for your cloned starter code, and then push to it.
 >
 \```bash
-$ git clone [URL to your starter repo] NAME_OF_LOCAL_REPO
-$ cd NAME_OF_LOCAL_REPO
-$ INSTALL_DEPENDENCIES
-$ git add .
-$ git commit -m 'project init'
+$ cd NAME_OF_REPO
+# can grab the url from the "Clone or download" link on your repo page
+$ git remote set-url origin git@github.com:YOUR_USERNAME/REPO-NAME
+$ git push -u origin master
 \```
 
->[action]
-> Push it!
->
-\```bash
-$ git remote add origin FORKED-GITHUB-REPO-URL
-$ git push origin master -u
-\```
+Go to your repo on GitHub and make sure your previously empty repo is now full with starter code! Now when you add/commit/push, it'll be to your repo!
 
 ```
