@@ -58,13 +58,35 @@ The renderer has overhauled the image syntax for embedding MP4 videos, YouTube v
 
 ### YouTube
 
-The following syntax will embed a YouTube video into the tutorial. The video must be embeddable (see video's settings on YouTube).
+The following syntax will embed a YouTube video into the tutorial. There are a few requirements:
+
+1. The video must be embeddable (see video's settings on YouTube)
+1. The video **must use the full or embedded URL syntax**.
+    1. **Full URL:** this is the URL that is shown when playing a video. An example would be `https://www.youtube.com/watch?v=6rT00QXqZak`
+    1. **Embed URL:** you can get this from the `Share --> Embed` link, and then grabbing the url that's in the `src`. An example would be `https://www.youtube.com/embed/9lMHxt_762E`
+    1. Currently, you can **not** use the short-link that YouTube provides for sharing, such as `https://youtu.be/9lMHxt_762E`
+
+Either of the following:
+
+```
+![ms-video-youtube](https://www.youtube.com/watch?v=6rT00QXqZak)
+
+![ms-video-youtube](https://www.youtube.com/embed/6rT00QXqZak)
+```
+
+turns into
 
 ![ms-video-youtube](https://www.youtube.com/watch?v=6rT00QXqZak)
 
 ### MP4/MOV
 
 The following syntax will embed an MP4/MOV video with controls. Videos can be referenced with URLs or relative links if they are included in the repository. This works great with short screencasts made with QuickTime.
+
+```
+![ms-video](assets/short-video.mov)
+```
+
+turns into
 
 ![ms-video](assets/short-video.mov)
 
