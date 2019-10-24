@@ -52,6 +52,20 @@ Make sure that every image has both alt and title text defined. Both are importa
 
 ![Make School logo](assets/ms-logo.png "Make School")
 
+## Font Awesome Icons
+
+Font Awesome icons (currently `v4.7.0`, see all of them [here](https://fontawesome.com/v4.7.0/icons/)) can used with:
+
+```
+![ms-fa](pencil)
+```
+
+which renders
+
+![ms-fa](pencil)
+
+Font Awesome icons ![ms-fa](font-awesome) are powerful because they can added inline.
+
 ## Other embedded assets
 
 The renderer has overhauled the image syntax for embedding MP4 videos, YouTube videos, and PDF files.
