@@ -79,6 +79,7 @@ The following syntax will embed a YouTube video into the tutorial. There are a f
     1. **Full URL:** this is the URL that is shown when playing a video. An example would be `https://www.youtube.com/watch?v=6rT00QXqZak`
     1. **Embed URL:** you can get this from the `Share --> Embed` link, and then grabbing the url that's in the `src`. An example would be `https://www.youtube.com/embed/9lMHxt_762E`
     1. Currently, you can **not** use the short-link that YouTube provides for sharing, such as `https://youtu.be/9lMHxt_762E`
+1. The text in the brackets **MUST** be `[ms-video-youtube]`. No alt-text is required.
 
 Either of the following:
 
@@ -95,6 +96,8 @@ turns into
 ### MP4/MOV
 
 The following syntax will embed an MP4/MOV video with controls. Videos can be referenced with URLs or relative links if they are included in the repository. This works great with short screencasts made with QuickTime.
+
+Similarly to YouTube videos, the text in the brackets **MUST** be `[ms-video]`. No alt-text is required.
 
 ```
 ![ms-video](assets/short-video.mov)
