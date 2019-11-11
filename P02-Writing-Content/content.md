@@ -27,6 +27,24 @@ Make sure to utilize the action highlight boxes to help break up just staring at
 - **Info:** for adding non-essential information to a concept/idea/function/etc.
 _ **Quote:** for adding quotes
 
+# Updating Previous Code
+
+You are more than likely going to have times where you have students revisit a file/function in your tutorial after they initially wrote it. When doing so, make sure to be explicit on what code is staying the same, and what code will be changing. You can do this a variety of ways:
+
+1. **Use Comments:** Leave comments signifying what code is changing, and unchanged lines should remain the same with no comments.
+1. **Use the [bold] tag** See the `Syntax Formatting Within Code Blocks` section in the first chapter (`P00`) to see how to use these to highlight changed code
+1. **Use ellipsis to skip unchanged code** Start with the top of the file, then place some ellipsis to show that we're skipping down to just the area of the code that's changing. For example:
+
+```py
+# app.py
+
+...
+# This is the function that changed‰
+def foo():
+    x = "bar"
+    print(x)
+```
+
 # User Story/Technical Planning Checklist
 
 Make sure to remind students of their user stories, and which ones they're going to be working on by **bolding** them, and then ~~cross off~~ the ones that have been completed.
